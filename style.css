@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'SVN-Poppins';
+    src: url(font/SVN-Poppins.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Inter:wght@500&family=Raleway:wght@100&display=swap');
+
+.navbar .acourse {
+    font-size: 2rem;
+    font-family: 'Arbutus Slab';
+    font-style: normal;
+    font-weight: 400;
+    color: #F2F2F2;
+}
+
+.navbar {
+    background-color: #2F80ED;
+}
+
+.navbar button:hover {
+    background-color: #1a1aec !important;
+}
+
+.box1 .boyImg {
+    max-width: 558px;
+    width: 100%;
+}
+
+.box1 .head1 {
+    max-width: 476px;
+    width: 100%;
+}
+
+.box1 p {
+    font-family: 'SVN-Poppins';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.box1 .grayp {
+    color: #4F4F4F;
+}
+
+.box1 h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    color: #1D1D1F;
+}
+
+.box1 .about {
+    font-family: 'SVN-Poppins';
+    font-style: normal;
+    font-weight: 600;
+    color: #2F80ED;
+}
+
+.box1 .about:hover {
+    cursor: pointer;
+    color: #c6b70a;
+}
+
+.mybtn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #0066FF;
+}
+
+.box3 {
+    color: #1D1D1F;
+}
+
+.box3 p {
+    color: #4F4F4F;
+}
+
+.box2,
+.box3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.box3 .blue-bg {
+    background: #DDF3FF;
+    border-radius: 16px;
+}
+
+.contact {
+    max-width: 70%;
+    width: 100%;
+    /* background-color: gray; */
+}
+
+.box-4 {
+    color: rgba(131, 131, 131, 0.8);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.box-4 input {
+    width: 100%;
+    padding: 24px;
+    gap: 16px;
+    background-color: #F8F8F8;
+    border-radius: 8px;
+    border: none;
+    margin: 16px 0;
+}
+
+.box-4 textarea {
+    width: 100%;
+    padding: 24px;
+    gap: 16px;
+    background: #F8F8F8;
+    border-radius: 8px;
+    border: none;
+    margin: 16px 0;
+    resize: none;
+}
+
+.box-4 input:hover,
+.box-4 textarea:hover {
+    background-color: rgb(244, 236, 236);
+}
+
+.box-4 {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.box-4 h2 {
+    color: #000054;
+}
+
+.box-4 ::placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(131, 131, 131, 0.8);
+}
+
+.box-4 .btn {
+    background: #0066FF;
+    border-radius: 8px;
+    padding: 1% 10%;
+}
+
+.box-4 .btn:hover {
+    background-color: #0066ffb9;
+}
+
+.box-5 {
+    color: #737373;
+    background: #EFEFEF;
+    font-family: 'SVN-Poppins';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.box-5 h5 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #252B42;
+}
+
+.box-5 h4 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #252B42;
+}
+
+.box-5 p {
+    font-weight: 400;
+}
+
+.box-5 li a:hover {
+    color: #3a1bc4 !important;
+}
+
+.box-5 .fblink li a:hover {
+    background: #0f1113 !important;
+}
+
+.box-5 .fblink {
+    gap: 5%;
+}
+
+.card-img,
+.card-img-bottom,
+.card-img-top {
+    width: 98%;
+}
+
+.card {
+    border: none !important;
+}
+
+.box3 .rocket {
+    transform: translate(0, -30%);
+}
